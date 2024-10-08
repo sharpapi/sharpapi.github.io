@@ -6,7 +6,7 @@
 ### Leverage AI API to streamline workflows in E-Commerce, Marketing, Content Management, HR Tech, Travel, and more.
 
 ## Connect with Us
-- **Website**: [SharpAPI.com](https://sharpapi.com)
+- **Website**: [SharpAPI.com - Automate Workflows with AI-powered API](https://sharpapi.com)
 - **GitHub**: [SharpAPI GitHub Organization](https://github.com/sharpapi)
 - **Twitter**: [@SharpAPI](https://twitter.com/SharpAPI)
 - **YouTube**:[@SharpAPI](https://www.youtube.com/@SharpAPI)
