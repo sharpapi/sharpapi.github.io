@@ -1,0 +1,55 @@
+# Site settings
+title: SharpAPI – Automate Workflows with AI-powered API
+description: Documentation for SharpAPI – Automate Workflows with AI-powered API
+url: "https://sharpapi.github.io"
+baseurl: "/"
+lang: "en"  # Sets the primary language for the site
+
+# GitHub Pages theme
+theme: jekyll-theme-cayman
+
+# Author settings
+author:
+  name: "SharpAPI Team"
+  email: "contact@sharpapi.com"  # Updated main contact email
+
+# Banner image for the cover
+header_image: "https://sharpapi.com/sharpapi-github-php-bg.jpg"
+
+# Social settings
+social_links:
+  twitter: "https://twitter.com/SharpAPI"
+  github: "https://github.com/sharpapi"
+  youtube: "https://www.youtube.com/@SharpAPI"
+  linkedin: "https://www.linkedin.com/products/a2z-web-ltd-sharpapicom-automate-with-aipowered-api/"
+  postman: "https://sharpapi.com/documentation"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed        # Adds an RSS feed, useful for SEO
+  - jekyll-analytics   # Enables Google Analytics for traffic insights
+
+# Google Tag Manager (Analytics)
+google_tag_manager: G-RHDPP797CX  # Google Tag Manager v4 ID
+
+# Open Graph and Twitter metadata
+seo:
+  title: "SharpAPI Documentation"
+  description: "SharpAPI is an AI-powered API for automating workflows in e-commerce, HR, content marketing, and more."
+  twitter:
+    username: "@SharpAPI"
+    card: "summary_large_image"
+  og:
+    title: "SharpAPI Documentation"
+    description: "SharpAPI – Automate workflows across industries with powerful AI endpoints."
+    image: "https://sharpapi.com/sharpapi-github-php-bg.jpg"
+    type: "website"
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
