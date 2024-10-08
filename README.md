@@ -21,10 +21,6 @@ Here’s a section listing the available functionalities of the API, with links 
 
 ---
 
-Here's an enriched description of each SharpAPI product based on the provided Postman collection and documentation:
-
----
-
 ## SharpAPI Functionalities
 
 SharpAPI offers a wide range of AI-powered products for various business needs. Each product consists of a pair of endpoints: a `POST` endpoint to initiate the job request and a `GET` endpoint to retrieve the job results. Here’s a list of all available functionalities, with links to their respective documentation:
