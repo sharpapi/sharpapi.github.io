@@ -27,71 +27,71 @@ SharpAPI offers a wide range of AI-powered products for various business needs. 
 
 ### E-commerce
 
-- **[Product Intro Generator](https://sharpapi.com/en/catalog/ai/e-commerce/product-intro-generator)**  
+- **[Product Intro Generator AI API](https://sharpapi.com/en/catalog/ai/e-commerce/product-intro-generator)**  
   - This tool generates concise, engaging product introductions based on detailed product information. Designed for e-commerce platforms, it simplifies the process of creating consistent and compelling catalog entries, making product listings more attractive to potential buyers. It allows customization of the writing style through parameters like `max_length` and `voice_tone`.
 
-- **[Product Categorization](https://sharpapi.com/en/catalog/ai/e-commerce/product-categorization)**  
+- **[Product Categorization AI API](https://sharpapi.com/en/catalog/ai/e-commerce/product-categorization)**  
   - Automatically assigns products to the most relevant categories based on their descriptions. This function is ideal for large e-commerce sites and marketplaces, where it helps maintain an organized catalog, enabling users to find products more easily. By analyzing the product’s features and keywords, the tool determines the optimal category, improving navigation and search results.
 
-- **[Product Review Sentiment Checker](https://sharpapi.com/en/catalog/ai/e-commerce/product-review-sentiment-checker)**  
+- **[Product Review Sentiment Checker AI API](https://sharpapi.com/en/catalog/ai/e-commerce/product-review-sentiment-checker)**  
   - Analyzes customer reviews to detect the sentiment expressed, helping businesses understand customer satisfaction and feedback trends. This functionality allows companies to gauge how products are perceived by users, enabling data-driven decision-making and targeted improvements based on customer feedback.
 
-- **[Custom Thank You E-mail Generator](https://sharpapi.com/en/catalog/ai/e-commerce/custom-thank-you-e-mail-generator)**  
+- **[Custom Thank You E-mail Generator AI API](https://sharpapi.com/en/catalog/ai/e-commerce/custom-thank-you-e-mail-generator)**  
   - Generates personalized thank-you emails for customers after a purchase. By crafting unique, tailored messages, this tool enhances customer experience and helps businesses foster better relationships with their clients. It allows the integration of personalized elements, such as customer names and specific purchase details.
 
 ### Content Marketing Automation
 
-- **[Paraphrase Text](https://sharpapi.com/en/catalog/ai/content-marketing-automation/paraphrase-text)**  
+- **[Paraphrase Text AI API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/paraphrase-text)**  
   - Rewrites existing content in a new tone or style to better match brand voice or target different audiences. This tool is invaluable for content marketers looking to create unique variations of existing text, ensuring consistency across multiple platforms while preserving the original message.
 
-- **[Keywords/Tags Generator](https://sharpapi.com/en/catalog/ai/content-marketing-automation/keywords-tags-generator)**  
+- **[Keywords/Tags Generator AI API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/keywords-tags-generator)**  
   - Extracts keywords and tags from content, aiding in SEO and content categorization. By automatically generating relevant tags, this tool enhances content discoverability on search engines and social media, driving more organic traffic to websites.
 
-- **[Advanced Text Translator](https://sharpapi.com/en/catalog/ai/content-marketing-automation/advanced-text-translator)**  
+- **[Advanced Text Translator AI API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/advanced-text-translator)**  
   - Translates text between multiple languages, supporting over 80 languages. This feature is ideal for businesses operating in multilingual environments, allowing them to localize content quickly and effectively, reaching a wider audience across different regions.
 
-- **[Summarize Text](https://sharpapi.com/en/catalog/ai/content-marketing-automation/summarize-text)**  
+- **[Summarize Text AI API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/summarize-text)**  
   - Condenses lengthy content into shorter, easily digestible summaries. This tool helps readers quickly grasp the main points of long articles or reports, making it especially useful for content curators, journalists, and educators.
 
 - **[Proofread & Grammar Checker](https://sharpapi.com/en/catalog/ai/content-marketing-automation/proofread-grammar-checker)**  
   - Identifies and corrects grammatical errors in written content. It’s perfect for ensuring the professional quality of all written materials, from blog posts to customer communications, enhancing readability and trustworthiness.
 
-- **[Spam Detector](https://sharpapi.com/en/catalog/ai/content-marketing-automation/spam-detector)**  
+- **[Spam Detector AI API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/spam-detector)**  
   - Analyzes content to detect spam indicators, helping businesses filter out unwanted messages. This tool is ideal for platforms managing user-generated content, ensuring that spam is minimized and that community standards are maintained.
 
 ### HR Tech
 
-- **[Job Description Generator](https://sharpapi.com/en/catalog/ai/hr-tech/job-description-generator)**  
+- **[Job Description Generator AI API](https://sharpapi.com/en/catalog/ai/hr-tech/job-description-generator)**  
   - Creates detailed, customized job descriptions based on input criteria. This tool helps HR departments and recruiters attract the right candidates by ensuring job descriptions are clear, engaging, and accurately reflect the role.
 
-- **[Related Job Positions Generator](https://sharpapi.com/en/catalog/ai/hr-tech/related-job-positions-generator)**  
+- **[Related Job Positions Generator AI API](https://sharpapi.com/en/catalog/ai/hr-tech/related-job-positions-generator)**  
   - Suggests job titles related to a specified role, assisting recruiters in exploring job position variations. It helps companies create job listings that align closely with industry standards, making it easier to attract qualified candidates.
 
-- **[Related Skills Generator](https://sharpapi.com/en/catalog/ai/hr-tech/related-skills-generator)**  
+- **[Related Skills Generator AI API](https://sharpapi.com/en/catalog/ai/hr-tech/related-skills-generator)**  
   - Lists skills relevant to a given role, enabling more precise job requirement listings. This tool assists hiring managers in clearly defining the skill sets needed for specific positions, leading to more qualified applicants.
 
-- **[Resume/CV Parsing](https://sharpapi.com/en/catalog/ai/hr-tech/resume-cv-parsing)**  
+- **[Resume/CV Parsing AI API](https://sharpapi.com/en/catalog/ai/hr-tech/resume-cv-parsing)**  
   - Extracts structured information from resumes and CVs, making it easier to evaluate candidates. This tool helps HR teams process large volumes of applications quickly, ensuring that essential details such as education, experience, and skills are readily accessible for comparison.
 
 ### SEO
 
-- **[SEO Social Media Tags Generator](https://sharpapi.com/en/catalog/ai/seo/seo-social-media-tags-generator)**  
+- **[SEO Social Media Tags Generator AI API](https://sharpapi.com/en/catalog/ai/seo/seo-social-media-tags-generator)**  
   - Generates SEO-optimized tags for social media platforms to improve content visibility. By using the right tags and keywords, this tool helps content reach a broader audience, enhancing engagement and driving more traffic to websites or social media pages.
 
 ### Travel & Hospitality
 
-- **[Hospitality Product Categorization](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/hospitality-product-categorization)**  
+- **[Hospitality Product Categorization AI API](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/hospitality-product-categorization)**  
   - Categorizes hospitality products and services, facilitating easier organization and discovery on travel and booking platforms. This tool helps businesses in the travel and hospitality sector maintain well-organized catalogs, improving the user experience for travelers seeking accommodations, activities, or services.
 
-- **[Tours & Activities Product Categorization](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/tours-activities-product-categorization)**  
+- **[Tours & Activities Product Categorization AI API](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/tours-activities-product-categorization)**  
   - Assigns tours and activities to appropriate categories, aiding travelers in discovering experiences that match their interests. This functionality is ideal for booking platforms looking to streamline user searches for activities, enhancing the customer journey.
 
-- **[Travel Review Sentiment Checker](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/travel-review-sentiment-checker)**  
+- **[Travel Review Sentiment Checker AI API](https://sharpapi.com/en/catalog/ai/travel-tourism-hospitality/travel-review-sentiment-checker)**  
   - Analyzes travel-related reviews for sentiment, providing insights into customer satisfaction. Travel companies can use this tool to understand guest feedback trends, enabling data-driven improvements to their services and offerings.
 
 ### Utility
 
-- **[Airports Database & Flight Duration Calculator](https://sharpapi.com/en/catalog/utility/airports-database-flight-duration-calculator)**  
+- **[Airports Database & Flight Duration Calculator API](https://sharpapi.com/en/catalog/utility/airports-database-flight-duration-calculator)**  
   - Calculates estimated flight durations between two airports, leveraging an extensive airport database. This tool is helpful for travel agencies and flight booking platforms, providing quick access to essential travel information that can assist customers in planning their journeys more effectively.
 
 Each API product is designed to perform specialized tasks, and you can review the individual product documentation for detailed usage, parameter requirements, and best practices for each endpoint.
