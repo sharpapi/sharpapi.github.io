@@ -15,15 +15,30 @@ try {
 $posts = '';
 if (isset($feed['entry']) && is_array($feed['entry'])) {
     foreach ($feed['entry'] as $post) {
-        $date = date('d/m/Y', strtotime($post['updated'] ?? ''));
+        // Format the date
+        $date = isset($post['updated']) ? date('d/m/Y', strtotime($post['updated'])) : 'Unknown Date';
+        
+        // Ensure title is available
         $title = $post['title'] ?? 'Untitled';
-        
-        // Handle link as array or string
-        $link = is_array($post['link']) ? ($post['link']['@attributes']['href'] ?? '#') : ($post['link'] ?? '#');
-        
-        // Ensure description is a string
-        $description = isset($post['summary']) ? (is_string($post['summary']) ? strip_tags($post['summary']) : strip_tags($post['summary'][0])) : '';
 
+        // Extract the link URL
+        if (isset($post['link'])) {
+            if (is_array($post['link'])) {
+                $link = $post['link']['@attributes']['href'] ?? '#';
+            } else {
+                $link = $post['link'];
+            }
+        } else {
+            $link = '#';
+        }
+
+        // Extract the description or summary
+        $description = '';
+        if (isset($post['summary'])) {
+            $description = is_string($post['summary']) ? strip_tags($post['summary']) : (isset($post['summary'][0]) ? strip_tags($post['summary'][0]) : '');
+        }
+
+        // Format each post entry
         $posts .= sprintf(
             "\n* **[%s]** [%s](%s \"%s\")\n  > %s",
             $date,
