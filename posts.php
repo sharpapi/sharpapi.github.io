@@ -3,48 +3,47 @@
 // Load Composer's autoload
 require_once __DIR__ . '/vendor/autoload.php';
 
+use Suin\RSSWriter\Feed;
+
+// Load the feed
 try {
-    // Load the RSS feed and convert it to an array
-    $feed = Feed::loadAtom('https://sharpapi.com/feed')->toArray();
+    $feedUrl = 'https://sharpapi.com/feed';
+    $xmlContent = file_get_contents($feedUrl);
+    if (!$xmlContent) {
+        throw new Exception("Failed to load feed from $feedUrl");
+    }
+    $xml = new SimpleXMLElement($xmlContent);
 } catch (Exception $e) {
     echo "Failed to load feed: ", $e->getMessage();
     exit(1);
 }
 
-// Initialize an empty string to store the formatted posts
+// Initialize the posts list
 $posts = '';
-foreach ($feed['entry'] as $post) {
-    // Extract title, link, and summary
-    $title = $post['title'] ?? 'No title';
-    $link = $post['link'][0]['@attributes']['href'] ?? '#';
-    $description = $post['summary'] ?? '';
-    $date = date('d/m/Y', strtotime($post['updated']));
 
-    // Append each post's details in the required format
-    $posts .= sprintf(
-        "\n* **[%s]** [%s](%s \"%s\")\n  > %s\n",
-        $date,
-        strip_tags($title),
-        $link,
-        strip_tags($title),
-        strip_tags($description)
-    );
+// Iterate over each entry in the feed
+foreach ($xml->entry as $entry) {
+    $title = (string) $entry->title;
+    $link = (string) $entry->link['href'];
+    $date = date('d/m/Y', strtotime($entry->updated));
+    $summary = strip_tags((string) $entry->summary); // Remove any HTML tags for a clean summary
+
+    // Append each entry to the posts list
+    $posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n  > %s", $date, $title, $link, $title, $summary);
 }
 
 // Load README.md content
 $readmePath = 'README.md';
 $readmeContent = file_get_contents($readmePath);
 
-// Check if README.md contains the posts section and replace or append
+// Replace or append the posts section in README.md
 if (strpos($readmeContent, '<!-- posts -->') !== false) {
-    // Replace content between <!-- posts --> and <!-- /posts -->
     $newContent = preg_replace(
         '#<!-- posts -->.*<!-- /posts -->#s',
         sprintf('<!-- posts -->%s<!-- /posts -->', $posts),
         $readmeContent
     );
 } else {
-    // Append new posts section at the end if placeholders are missing
     $newContent = $readmeContent . "\n\n<!-- posts -->" . $posts . "<!-- /posts -->";
 }
 
