@@ -17,9 +17,9 @@ if (!isset($feed['entry']) || !is_array($feed['entry']) || empty($feed['entry'])
     exit(1);
 }
 
-// Limit to the latest 5 posts (adjust if needed)
+// Generate the list of all blog posts
 $posts = '';
-foreach (array_slice($feed['entry'], 0, 5) as $post) {
+foreach ($feed['entry'] as $post) {
     $date = date('d/m/Y', strtotime($post['updated'] ?? ''));
     $posts .= sprintf(
         "\n* **[%s]** [%s](%s \"%s\")",
@@ -50,4 +50,4 @@ if (strpos($readmeContent, '<!-- posts -->') !== false) {
 // Write the updated content to README.md
 file_put_contents($readmePath, $newContent);
 
-echo "README.md updated successfully with the latest blog posts.\n";
+echo "README.md updated successfully with all blog posts.\n";
