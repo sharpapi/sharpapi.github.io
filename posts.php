@@ -30,7 +30,7 @@ foreach ($xml->entry as $entry) {
 
     // Append each entry to the posts list
     //$posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n  > %s", $date, $title, $link, $title, $summary);
-    $posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n%s\n\n", $date, $title, $link, $title, trim($summary));
+    $posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n > %s\n\n", $date, $title, $link, $title, trim($summary));
 
 }
 
