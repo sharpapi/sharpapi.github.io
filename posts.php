@@ -4,29 +4,28 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 try {
-    // Load the Atom feed and convert it to an array
+    // Load the RSS feed and convert it to an array
     $feed = Feed::loadAtom('https://sharpapi.com/feed')->toArray();
 } catch (Exception $e) {
     echo "Failed to load feed: ", $e->getMessage();
     exit(1);
 }
 
-// Check if 'entry' key exists and contains data
-if (!isset($feed['entry']) || !is_array($feed['entry']) || empty($feed['entry'])) {
-    echo "Feed data is missing or 'entry' key is not available.\n";
-    exit(1);
-}
-
-// Generate the list of all blog posts
+// Generate the list of all blog posts with full title and description
 $posts = '';
-foreach ($feed['entry'] as $post) {
-    $date = date('d/m/Y', strtotime($post['updated'] ?? ''));
+foreach ($feed['item'] as $post) {
+    $date = date('d/m/Y', strtotime($post['pubDate']));
+    $title = $post['title'];
+    $link = $post['link'];
+    $description = strip_tags($post['description']); // Remove any HTML tags from description
+
     $posts .= sprintf(
-        "\n* **[%s]** [%s](%s \"%s\")",
+        "\n* **[%s]** [%s](%s \"%s\")\n  > %s",
         $date,
-        $post['title'] ?? 'No title',
-        $post['link']['@attributes']['href'] ?? '#',
-        $post['title'] ?? 'No title'
+        $title,
+        $link,
+        $title,
+        $description
     );
 }
 
@@ -50,4 +49,4 @@ if (strpos($readmeContent, '<!-- posts -->') !== false) {
 // Write the updated content to README.md
 file_put_contents($readmePath, $newContent);
 
-echo "README.md updated successfully with all blog posts.\n";
+echo "README.md updated successfully with the latest blog posts.\n";
