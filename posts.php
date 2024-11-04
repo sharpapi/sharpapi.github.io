@@ -17,8 +17,12 @@ if (isset($feed['entry']) && is_array($feed['entry'])) {
     foreach ($feed['entry'] as $post) {
         $date = date('d/m/Y', strtotime($post['updated'] ?? ''));
         $title = $post['title'] ?? 'Untitled';
-        $link = $post['link']['@attributes']['href'] ?? '#';
-        $description = strip_tags($post['summary'] ?? ''); // Strip HTML tags for cleaner README
+        
+        // Handle link as array or string
+        $link = is_array($post['link']) ? ($post['link']['@attributes']['href'] ?? '#') : ($post['link'] ?? '#');
+        
+        // Ensure description is a string
+        $description = isset($post['summary']) ? (is_string($post['summary']) ? strip_tags($post['summary']) : strip_tags($post['summary'][0])) : '';
 
         $posts .= sprintf(
             "\n* **[%s]** [%s](%s \"%s\")\n  > %s",
