@@ -4,7 +4,7 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Load the RSS feed
-$feed = Feed::loadRss('https://sharpapi.com/feed')->toArray();
+$feed = Feed::loadAtom('https://sharpapi.com/feed')->toArray();
 
 // Generate the list of blog posts
 $posts = '';
