@@ -360,7 +360,12 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ---
 ### Blog
 
-<!-- posts --><!-- /posts -->
+<!-- posts -->
+* **[03/11/2024]** [10 Ways AI with SharpAPI is Transforming Travel Tech](# "10 Ways AI with SharpAPI is Transforming Travel Tech")
+* **[31/10/2024]** [SharpAPI is Now Integrated into Integrately.com Ecosystem](# "SharpAPI is Now Integrated into Integrately.com Ecosystem")
+* **[17/10/2024]** [Introducing SharpAPI Node.js SDK Client](# "Introducing SharpAPI Node.js SDK Client")
+* **[17/10/2024]** [Introducing the SharpAPI Python Client SDK](# "Introducing the SharpAPI Python Client SDK")
+* **[17/10/2024]** [How AI-Powered APIs are Transforming Recruitment](# "How AI-Powered APIs are Transforming Recruitment")<!-- /posts -->
 
 
 --- 
