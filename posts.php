@@ -29,7 +29,9 @@ foreach ($xml->entry as $entry) {
     $summary = strip_tags((string) $entry->summary); // Remove any HTML tags for a clean summary
 
     // Append each entry to the posts list
-    $posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n  > %s", $date, $title, $link, $title, $summary);
+    //$posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n  > %s", $date, $title, $link, $title, $summary);
+    $posts .= sprintf("\n* **[%s]** [%s](%s \"%s\")\n%s\n\n", $date, $title, $link, $title, trim($summary));
+
 }
 
 // Load README.md content
