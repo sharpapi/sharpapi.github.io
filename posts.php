@@ -4,50 +4,31 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 try {
-    // Load the RSS feed and convert to an array
+    // Load the RSS feed and convert it to an array
     $feed = Feed::loadAtom('https://sharpapi.com/feed')->toArray();
 } catch (Exception $e) {
     echo "Failed to load feed: ", $e->getMessage();
     exit(1);
 }
 
-// Generate the list of blog posts
+// Initialize an empty string to store the formatted posts
 $posts = '';
-if (isset($feed['entry']) && is_array($feed['entry'])) {
-    foreach ($feed['entry'] as $post) {
-        // Format the date
-        $date = isset($post['updated']) ? date('d/m/Y', strtotime($post['updated'])) : 'Unknown Date';
-        
-        // Ensure title is available
-        $title = $post['title'] ?? 'Untitled';
+foreach ($feed['entry'] as $post) {
+    // Extract title, link, and summary
+    $title = $post['title'] ?? 'No title';
+    $link = $post['link'][0]['@attributes']['href'] ?? '#';
+    $description = $post['summary'] ?? '';
+    $date = date('d/m/Y', strtotime($post['updated']));
 
-        // Extract the link URL
-        if (isset($post['link'])) {
-            if (is_array($post['link'])) {
-                $link = $post['link']['@attributes']['href'] ?? '#';
-            } else {
-                $link = $post['link'];
-            }
-        } else {
-            $link = '#';
-        }
-
-        // Extract the description or summary
-        $description = '';
-        if (isset($post['summary'])) {
-            $description = is_string($post['summary']) ? strip_tags($post['summary']) : (isset($post['summary'][0]) ? strip_tags($post['summary'][0]) : '');
-        }
-
-        // Format each post entry
-        $posts .= sprintf(
-            "\n* **[%s]** [%s](%s \"%s\")\n  > %s",
-            $date,
-            $title,
-            $link,
-            $title,
-            $description
-        );
-    }
+    // Append each post's details in the required format
+    $posts .= sprintf(
+        "\n* **[%s]** [%s](%s \"%s\")\n  > %s\n",
+        $date,
+        strip_tags($title),
+        $link,
+        strip_tags($title),
+        strip_tags($description)
+    );
 }
 
 // Load README.md content
