@@ -361,6 +361,14 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[07/11/2024]** [Transforming HR Tech with AI-Powered Efficiency](https://sharpapi.com/blog/post/transforming-hr-tech-with-ai-powered-efficiency "Transforming HR Tech with AI-Powered Efficiency")
+ > So, you’re neck-deep in resumes and job descriptions, and your only defense against the deluge is a lukewarm cup of coffee. Enter SharpAPI. This isn’t just any old toolkit – this is a turbo-charged, HR tech hero. Here’s how each of these endpoint superheroes (cue dramatic music) can turn your hiring process from drudgery to, well, semi-automated bliss.
+
+
+* **[07/11/2024]** [HR Marketing Meets Automation: SharpAPI Content Tools](https://sharpapi.com/blog/post/hr-marketing-meets-automation-sharpapi-content-tools "HR Marketing Meets Automation: SharpAPI Content Tools")
+ > HR tech is about more than just hunting for the perfect hire – it’s about creating content that attracts them and keeps them glued to your brand. Enter SharpAPI’s content automation tools, here to make your marketing team and your brand look like absolute rockstars. Imagine having a set of tools so sharp, they could slice through a clunky sentence or rescue a dull job ad, turning it into a showstopper. Let’s dive in.
+
+
 * **[05/11/2024]** [10 Ways AI with SharpAPI is Transforming Travel Tech](https://sharpapi.com/blog/post/10-ways-ai-with-sharpapi-is-transforming-travel-tech "10 Ways AI with SharpAPI is Transforming Travel Tech")
  > In an industry where time zones are crossed faster than you can finish a complimentary in-flight snack, AI has become the quiet co-pilot shaping every corner of travel. Imagine automating itinerary emails, categorizing unique stays, or instantly translating tour descriptions—all while you focus on delivering memorable experiences. SharpAPI brings this vision to life, offering a suite of AI-powered tools that not only simplify operations but add that extra spark to customer interactions, making travel smoother, smarter, and undeniably more exciting.
 
