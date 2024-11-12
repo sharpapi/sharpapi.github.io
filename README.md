@@ -361,11 +361,15 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[11/11/2024]** [Effortless Translations with AI in Laravel Nova](https://sharpapi.com/blog/post/effortless-translations-with-ai-in-laravel-nova "Effortless Translations with AI in Laravel Nova")
+ > Alright, imagine this: you've got a Laravel Nova dashboard, a list of content fields in multiple languages, and a burning desire to automate translations because, let’s be real, manually doing it is not exactly a great time.
+
+
 * **[07/11/2024]** [Transforming HR Tech with AI-Powered Efficiency](https://sharpapi.com/blog/post/transforming-hr-tech-with-ai-powered-efficiency "Transforming HR Tech with AI-Powered Efficiency")
  > So, you’re neck-deep in resumes and job descriptions, and your only defense against the deluge is a lukewarm cup of coffee. Enter SharpAPI. This isn’t just any old toolkit – this is a turbo-charged, HR tech hero. Here’s how each of these endpoint superheroes (cue dramatic music) can turn your hiring process from drudgery to, well, semi-automated bliss.
 
 
-* **[07/11/2024]** [HR Marketing Meets Automation: SharpAPI Content Tools](https://sharpapi.com/blog/post/hr-marketing-meets-automation-sharpapi-content-tools "HR Marketing Meets Automation: SharpAPI Content Tools")
+* **[11/11/2024]** [HR Marketing Meets Automation: SharpAPI Content Tools](https://sharpapi.com/blog/post/hr-marketing-meets-automation-sharpapi-content-tools "HR Marketing Meets Automation: SharpAPI Content Tools")
  > HR tech is about more than just hunting for the perfect hire – it’s about creating content that attracts them and keeps them glued to your brand. Enter SharpAPI’s content automation tools, here to make your marketing team and your brand look like absolute rockstars. Imagine having a set of tools so sharp, they could slice through a clunky sentence or rescue a dull job ad, turning it into a showstopper. Let’s dive in.
 
 
