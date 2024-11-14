@@ -361,7 +361,11 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
-* **[11/11/2024]** [Effortless Translations with AI in Laravel Nova](https://sharpapi.com/blog/post/effortless-translations-with-ai-in-laravel-nova "Effortless Translations with AI in Laravel Nova")
+* **[13/11/2024]** [Introducing the Resume Parser/CV Parser for Laravel](https://sharpapi.com/blog/post/introducing-the-resume-parser-cv-parser-for-laravel "Introducing the Resume Parser/CV Parser for Laravel")
+ > Alright, so you’ve got a stack of resumes to sift through, and you're feeling that slight existential dread knowing there are only so many hours in a day. What if you could slice through all that resume clutter with an AI-powered razor that picks out the gems for you?
+
+
+* **[13/11/2024]** [Effortless Translations with AI in Laravel Nova](https://sharpapi.com/blog/post/effortless-translations-with-ai-in-laravel-nova "Effortless Translations with AI in Laravel Nova")
  > Alright, imagine this: you've got a Laravel Nova dashboard, a list of content fields in multiple languages, and a burning desire to automate translations because, let’s be real, manually doing it is not exactly a great time.
 
 
