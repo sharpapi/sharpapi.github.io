@@ -411,7 +411,7 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 I'm probably going to ruffle some feathers here, but hear me out. 🙂
 
 
-* **[02/10/2024]** [SharpAPI Introduction Video](https://sharpapi.com/blog/post/sharpapi-introduction-video "SharpAPI Introduction Video")
+* **[16/11/2024]** [SharpAPI Introduction Video](https://sharpapi.com/blog/post/sharpapi-introduction-video "SharpAPI Introduction Video")
  > SharpAPI is a powerful AI-powered API, which provides a range of workflow automation endpoints to help improve efficiency across various industries. It has features for E-commerce, Content & Marketing Automation, SEO, HR Tech, and Travel & Hospitality industries.
 
 
