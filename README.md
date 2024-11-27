@@ -361,6 +361,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[26/11/2024]** [SharpAPI + Seven Peaks Software: A Partnership Built for AI Automation Excellence](https://sharpapi.com/blog/post/sharpapi-seven-peaks-software-a-partnership-built-for-ai-automation-excellence "SharpAPI + Seven Peaks Software: A Partnership Built for AI Automation Excellence")
+ > Once upon a time (okay, a few months ago), SharpAPI and Seven Peaks Software crossed paths, and something magical happened. Imagine combining the raw power of AI automation with the expertise of a global software powerhouse. That’s what this partnership is all about: delivering seamless integration solutions that transform businesses.
+
+
 * **[13/11/2024]** [Introducing the Resume Parser/CV Parser for Laravel](https://sharpapi.com/blog/post/introducing-the-resume-parser-cv-parser-for-laravel "Introducing the Resume Parser/CV Parser for Laravel")
  > Alright, so you’ve got a stack of resumes to sift through, and you're feeling that slight existential dread knowing there are only so many hours in a day. What if you could slice through all that resume clutter with an AI-powered razor that picks out the gems for you?
 
