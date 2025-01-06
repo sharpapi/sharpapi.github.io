@@ -361,6 +361,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[05/01/2025]** [Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application")
+ > No more polling APIs, no more delays. Just instant updates when your AI job is completed, delivered securely and reliably to your designated endpoint. Whether you’re translating content, generating data insights, or processing large datasets, webhooks ensure you’re always in sync with SharpAPI.
+
+
 * **[07/12/2024]** [Why Developers Should Choose SharpAPI Over Operating AI Models Manually](https://sharpapi.com/blog/post/why-developers-should-choose-sharpapi-over-operating-ai-models-manually "Why Developers Should Choose SharpAPI Over Operating AI Models Manually")
  > When it comes to workflow automation, integrating AI into your business can feel like deciding whether to climb a mountain or take the gondola. Sure, both get you to the top, but one is infinitely easier and less sweaty. In the world of AI-driven automation, the gondola is SharpAPI—the streamlined solution that helps you implement workflow automations faster and more effectively than wrestling with a Large Language Model (LLM) API directly.
 
