@@ -361,7 +361,7 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
-* **[05/01/2025]** [Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application")
+* **[08/01/2025]** [Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application")
  > No more polling APIs, no more delays. Just instant updates when your AI job is completed, delivered securely and reliably to your designated endpoint. Whether you’re translating content, generating data insights, or processing large datasets, webhooks ensure you’re always in sync with SharpAPI.
 
 
