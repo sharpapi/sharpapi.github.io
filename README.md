@@ -361,6 +361,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[26/03/2025]** [Introducing the SharpAPI Skills Database API](https://sharpapi.com/blog/post/introducing-the-sharpapi-skills-database-api "Introducing the SharpAPI Skills Database API")
+ > We're excited to announce a new addition to our utility API family: the SharpAPI Skills Database API. Designed to enhance how platforms utilize and understand skill-related data, this API offers instant access to a structured database of nearly 100,000 skills, including their related skills and relevancy scores.
+
+
 * **[08/01/2025]** [Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application")
  > No more polling APIs, no more delays. Just instant updates when your AI job is completed, delivered securely and reliably to your designated endpoint. Whether you’re translating content, generating data insights, or processing large datasets, webhooks ensure you’re always in sync with SharpAPI.
 
