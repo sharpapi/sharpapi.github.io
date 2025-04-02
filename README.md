@@ -361,11 +361,15 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
-* **[26/03/2025]** [Introducing the SharpAPI Skills Database API](https://sharpapi.com/blog/post/introducing-the-sharpapi-skills-database-api "Introducing the SharpAPI Skills Database API")
+* **[01/04/2025]** [Job Positions API: Unlock Comprehensive HR Data](https://sharpapi.com/blog/post/job-positions-api "Job Positions API: Unlock Comprehensive HR Data")
+ > Imagine having access to a vast, meticulously structured database of over 16,000 job positions across various industries—all at your fingertips. This API doesn’t just list roles; it also offers related job positions with weighted relevancy scores, making it a perfect companion for HR platforms, job boards, AI-driven career matching, and workforce analytics.
+
+
+* **[01/04/2025]** [Skills Database API: The Ultimate Tool for Skill Intelligence](https://sharpapi.com/blog/post/skills-database-api "Skills Database API: The Ultimate Tool for Skill Intelligence")
  > We're excited to announce a new addition to our utility API family: the SharpAPI Skills Database API. Designed to enhance how platforms utilize and understand skill-related data, this API offers instant access to a structured database of nearly 100,000 skills, including their related skills and relevancy scores.
 
 
-* **[08/01/2025]** [Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "Introducing AI Jobs Webhooks: Real-Time Notifications for Your Application")
+* **[01/04/2025]** [AI Jobs Webhooks: Real-Time Notifications for Your Application](https://sharpapi.com/blog/post/ai-jobs-webhooks-real-time-notifications-for-your-application "AI Jobs Webhooks: Real-Time Notifications for Your Application")
  > No more polling APIs, no more delays. Just instant updates when your AI job is completed, delivered securely and reliably to your designated endpoint. Whether you’re translating content, generating data insights, or processing large datasets, webhooks ensure you’re always in sync with SharpAPI.
 
 
