@@ -361,6 +361,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[01/05/2025]** [Resume/CV & Job Description Match Scoring Just Got an Upgrade](https://sharpapi.com/blog/post/resume-cv-job-description-match-scoring-just-got-an-upgrade "Resume/CV & Job Description Match Scoring Just Got an Upgrade")
+ > Hiring is hard. Sifting through dozens—if not hundreds—of resumes to find the right fit feels more like archaeology than recruitment. So we decided to fix that.
+
+
 * **[01/04/2025]** [Job Positions API: Unlock Comprehensive HR Data](https://sharpapi.com/blog/post/job-positions-api "Job Positions API: Unlock Comprehensive HR Data")
  > Imagine having access to a vast, meticulously structured database of over 16,000 job positions across various industries—all at your fingertips. This API doesn’t just list roles; it also offers related job positions with weighted relevancy scores, making it a perfect companion for HR platforms, job boards, AI-driven career matching, and workforce analytics.
 
