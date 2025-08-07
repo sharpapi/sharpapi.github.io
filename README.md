@@ -361,7 +361,7 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
-* **[05/08/2025]** [Resume/CV & Job Description Match Scoring + Laravel Package](https://sharpapi.com/blog/post/resume-cv-job-description-match-scoring-laravel-package "Resume/CV & Job Description Match Scoring + Laravel Package")
+* **[06/08/2025]** [Resume/CV & Job Description Match Scoring + Laravel Package](https://sharpapi.com/blog/post/resume-cv-job-description-match-scoring-laravel-package "Resume/CV & Job Description Match Scoring + Laravel Package")
  > Hiring is hard. Sifting through dozens—if not hundreds—of resumes to find the right fit feels more like archaeology than recruitment. So we decided to fix that.
 
 
@@ -387,7 +387,7 @@ Let’s break down why SharpAPI is the smarter, more efficient choice for your a
  > Once upon a time (okay, a few months ago), SharpAPI and Seven Peaks Software crossed paths, and something magical happened. Imagine combining the raw power of AI automation with the expertise of a global software powerhouse. That’s what this partnership is all about: delivering seamless integration solutions that transform businesses.
 
 
-* **[05/08/2025]** [AI-powered Resume Parser/CV Parser for Laravel](https://sharpapi.com/blog/post/ai-resume-parser-cv-parser-for-laravel "AI-powered Resume Parser/CV Parser for Laravel")
+* **[06/08/2025]** [AI-powered Resume Parser/CV Parser for Laravel](https://sharpapi.com/blog/post/ai-resume-parser-cv-parser-for-laravel "AI-powered Resume Parser/CV Parser for Laravel")
  > Alright, so you’ve got a stack of resumes to sift through, and you're feeling that slight existential dread knowing there are only so many hours in a day. What if you could slice through all that resume clutter with an AI-powered razor that picks out the gems for you?
 
 
