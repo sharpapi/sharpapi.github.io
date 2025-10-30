@@ -365,11 +365,11 @@ These utility endpoints, along with careful monitoring of quota status, will hel
  > If you build things for customers, recommend tools, write tutorials, run a community, or just happen to know people who do, you can earn recurring income by sending them our way.
 
 
-* **[01/09/2025]** [SharpAPI Achieves SOC 2 Type II Certification for Security, Trust, and Compliance](https://sharpapi.com/blog/post/sharpapi-soc2-type2-certification "SharpAPI Achieves SOC 2 Type II Certification for Security, Trust, and Compliance")
+* **[29/10/2025]** [SharpAPI Achieves SOC 2 Type II Certification for Security, Trust, and Compliance](https://sharpapi.com/blog/post/sharpapi-soc2-type2-certification "SharpAPI Achieves SOC 2 Type II Certification for Security, Trust, and Compliance")
  > At SharpAPI, we believe trust is just as important as performance. That’s why we are proud to share that SharpAPI have achieved SOC 2 Type II certification.
 
 
-* **[06/08/2025]** [Resume/CV & Job Description Match Scoring + Laravel Package](https://sharpapi.com/blog/post/resume-cv-job-description-match-scoring-laravel-package "Resume/CV & Job Description Match Scoring + Laravel Package")
+* **[29/10/2025]** [Resume/CV & Job Description Match Scoring + Laravel Package](https://sharpapi.com/blog/post/resume-cv-job-description-match-scoring-laravel-package "Resume/CV & Job Description Match Scoring + Laravel Package")
  > Hiring is hard. Sifting through dozens—if not hundreds—of resumes to find the right fit feels more like archaeology than recruitment. So we decided to fix that.
 
 
