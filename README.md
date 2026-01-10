@@ -361,6 +361,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[09/01/2026]** [CVMatchScore.com: A Real-World Showcase of Our Resume Match API](https://sharpapi.com/blog/post/cvmatchscore-com-a-real-world-showcase-of-our-resume-match-api "CVMatchScore.com: A Real-World Showcase of Our Resume Match API")
+ > APIs are easy to explain and harder to truly understand. CV Match Score is a small, fully functional product we built to show what happens when our Resume–Job Match API is used in a real, user-facing scenario. No mockups, no sample data, just a working example.
+
+
 * **[28/10/2025]** [Refer a customer → earn 30% forever](https://sharpapi.com/blog/post/refer-a-customer-earn-30-forever "Refer a customer → earn 30% forever")
  > If you build things for customers, recommend tools, write tutorials, run a community, or just happen to know people who do, you can earn recurring income by sending them our way.
 
