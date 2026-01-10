@@ -100,13 +100,7 @@ Each API product is designed to perform specialized tasks, and you can review th
 
 ## SDK Client Libraries
 
-For streamlined integration, use one of our SDK clients available for multiple programming languages:
-- [Node.js SDK](https://github.com/sharpapi/sharpapi-node-client)
-- [PHP SDK](https://github.com/sharpapi/sharpapi-php-client)
-- [Laravel SDK](https://github.com/sharpapi/sharpapi-laravel-client)
-- [Flutter SDK](https://github.com/sharpapi/sharpapi-flutter-client)
-- [.NET SDK](https://www.nuget.org/packages/SharpApi.Service)
-- [Python SDK](https://github.com/sharpapi/sharpapi-python-client)
+For streamlined integration, use one of our SDK clients available for multiple programming languages - [Check ALL SharpAPI's SDKs and libraries at https://github.com/sharpapi/](https://github.com/sharpapi/)
 
 Refer to the respective GitHub repositories for setup and usage instructions.
 
