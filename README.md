@@ -355,6 +355,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[22/02/2026]** [Invoice Parsing API - Extract Structured Data from Any Invoice](https://sharpapi.com/blog/post/invoice-parsing-api-extract-structured-data-from-any-invoice "Invoice Parsing API - Extract Structured Data from Any Invoice")
+ > If you've ever spent an afternoon squinting at invoices, copy-pasting vendor names into spreadsheets, and manually tallying line items - first of all, we're sorry. Second of all, that era is officially over. The new Invoice Parsing endpoint takes any invoice file - whether it's a crisp PDF, a slightly crumpled photo from your phone, or a scanned TIFF from that ancient office scanner - and returns a beautifully structured JSON object packed with every data point you could possibly need.
+
+
 * **[09/01/2026]** [CVMatchScore.com: A Real-World Showcase of Our Resume Match API](https://sharpapi.com/blog/post/cvmatchscore-com-a-real-world-showcase-of-our-resume-match-api "CVMatchScore.com: A Real-World Showcase of Our Resume Match API")
  > APIs are easy to explain and harder to truly understand. CV Match Score is a small, fully functional product we built to show what happens when our Resume–Job Match API is used in a real, user-facing scenario. No mockups, no sample data, just a working example.
 
