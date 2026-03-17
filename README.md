@@ -355,6 +355,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[16/03/2026]** [Introducing Custom Workflows: Turn Any AI Prompt Into a Production API](https://sharpapi.com/blog/post/introducing-custom-workflows-turn-any-ai-prompt-into-a-production-api "Introducing Custom Workflows: Turn Any AI Prompt Into a Production API")
+ > Define your parameters. Write your prompt in plain English. Get a fully functional REST endpoint that returns structured JSON - in under 60 seconds.
+
+
 * **[07/03/2026]** [Invoice Parsing API - Extract Structured Data from Any Invoice](https://sharpapi.com/blog/post/invoice-parsing-api-extract-structured-data-from-any-invoice "Invoice Parsing API - Extract Structured Data from Any Invoice")
  > If you've ever spent an afternoon squinting at invoices, copy-pasting vendor names into spreadsheets, and manually tallying line items - first of all, we're sorry. Second of all, that era is officially over. The new Invoice Parsing endpoint takes any invoice file - whether it's a crisp PDF, a slightly crumpled photo from your phone, or a scanned TIFF from that ancient office scanner - and returns a beautifully structured JSON object packed with every data point you could possibly need.
 
