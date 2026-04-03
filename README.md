@@ -355,6 +355,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[02/04/2026]** [Your AI API, your rules: Introducing Custom AI Job instructions](https://sharpapi.com/blog/post/your-ai-api-your-rules-introducing-custom-ai-job-instructions "Your AI API, your rules: Introducing Custom AI Job instructions")
+ > Every AI endpoint in SharpAPI now accepts a persistent custom instruction per user. Write it once in your dashboard, and it silently shapes every request you make to that endpoint.
+
+
 * **[16/03/2026]** [Introducing Custom Workflows: Turn Any AI Prompt Into a Production API](https://sharpapi.com/blog/post/introducing-custom-workflows-turn-any-ai-prompt-into-a-production-api "Introducing Custom Workflows: Turn Any AI Prompt Into a Production API")
  > Define your parameters. Write your prompt in plain English. Get a fully functional REST endpoint that returns structured JSON - in under 60 seconds.
 
