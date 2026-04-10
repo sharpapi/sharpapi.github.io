@@ -355,6 +355,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[09/04/2026]** [Smarter Scoring, Sharper Hiring: A Major Update to the CV Match Score API](https://sharpapi.com/blog/post/smarter-scoring-sharper-hiring-a-major-update-to-the-cv-match-score-api "Smarter Scoring, Sharper Hiring: A Major Update to the CV Match Score API")
+ > Not all hiring looks the same, and your scoring engine shouldn't pretend it does. SharpAPI's Resume/CV & Job Description Compatibility Scoring endpoint now ships with a formal directive system that lets you tell the engine exactly what matters for each role, and watch it ripple all the way through to the final score.
+
+
 * **[02/04/2026]** [Your AI API, your rules: Introducing Custom AI Job instructions](https://sharpapi.com/blog/post/your-ai-api-your-rules-introducing-custom-ai-job-instructions "Your AI API, your rules: Introducing Custom AI Job instructions")
  > Every AI endpoint in SharpAPI now accepts a persistent custom instruction per user. Write it once in your dashboard, and it silently shapes every request you make to that endpoint.
 
