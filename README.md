@@ -355,6 +355,10 @@ These utility endpoints, along with careful monitoring of quota status, will hel
 ### Blog
 
 <!-- posts -->
+* **[02/05/2026]** [The new SharpAPI Affiliate Program: built for the people who actually ship AI for a living](https://sharpapi.com/blog/post/the-new-sharpapi-affiliate-program-built-for-the-people-who-actually-ship-ai-for-a-living "The new SharpAPI Affiliate Program: built for the people who actually ship AI for a living")
+ > The SharpAPI affiliate program just got a serious upgrade. New partner dashboard, live earnings tracking, and formal PDF commission statements. Here's everything that changed, and why this is a particularly strong fit if you build AI integrations for other companies.
+
+
 * **[09/04/2026]** [Smarter Scoring, Sharper Hiring: A Major Update to the CV Match Score API](https://sharpapi.com/blog/post/smarter-scoring-sharper-hiring-a-major-update-to-the-cv-match-score-api "Smarter Scoring, Sharper Hiring: A Major Update to the CV Match Score API")
  > Not all hiring looks the same, and your scoring engine shouldn't pretend it does. SharpAPI's Resume/CV & Job Description Compatibility Scoring endpoint now ships with a formal directive system that lets you tell the engine exactly what matters for each role, and watch it ripple all the way through to the final score.
 
